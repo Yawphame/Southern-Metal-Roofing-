@@ -202,3 +202,38 @@ font-size:3rem;
 }
 
 }
+.stats{
+padding:60px 0;
+}
+
+.stats-grid{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:1.5rem;
+}
+
+.stat-card{
+background:var(--card);
+padding:2rem;
+border-radius:20px;
+text-align:center;
+border:1px solid var(--border);
+}
+
+.stat-card h3{
+font-size:2rem;
+color:var(--accent);
+margin-bottom:.5rem;
+}
+
+.stat-card p{
+color:var(--muted);
+}
+
+@media(max-width:900px){
+
+.stats-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
