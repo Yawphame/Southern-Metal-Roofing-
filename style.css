@@ -270,3 +270,30 @@ css .service-card img{ width:100%; height:220px; object-fit:cover; border-radius
     line-height: 1.7;
     font-size: 15px;
 }
+.contact{
+    padding:120px 0;
+}
+
+.contact-box{
+    background:#1E293B;
+    padding:40px;
+    border-radius:20px;
+    border:1px solid #334155;
+    text-align:center;
+}
+
+.contact-box p{
+    margin-bottom:16px;
+}
+
+.contact-box a{
+    color:#3B82F6;
+    text-decoration:none;
+}
+
+.footer{
+    padding:40px 0;
+    text-align:center;
+    border-top:1px solid #334155;
+    color:#94A3B8;
+}
