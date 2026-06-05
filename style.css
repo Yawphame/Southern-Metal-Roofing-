@@ -290,7 +290,9 @@ css .service-card img{ width:100%; height:220px; object-fit:cover; border-radius
     color:#3B82F6;
     text-decoration:none;
 }
-
+.contact-box a:hover{
+    text-decoration:underline;
+}
 .footer{
     padding:40px 0;
     text-align:center;
