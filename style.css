@@ -17,7 +17,9 @@ box-sizing:border-box;
 
 --border:rgba(255,255,255,.08);
 }
-
+html{
+    scroll-behavior:smooth;
+}
 body{
 font-family:'Manrope',sans-serif;
 background:var(--bg);
